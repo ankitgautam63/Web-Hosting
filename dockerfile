@@ -1,5 +1,5 @@
 FROM nginx:latest
 
-COPY index.html /usr/share/nginx/html/index.html
+COPY index.html style.css script.js profile1.jpg profile2.jpeg /usr/share/nginx/html/
 
 EXPOSE 80
