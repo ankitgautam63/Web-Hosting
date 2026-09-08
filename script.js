@@ -1,3 +1,5 @@
+document.documentElement.classList.add('js-enabled');
+
 // ---------- dark mode toggle ----------
 (() => {
   const btn = document.getElementById('theme-toggle');
