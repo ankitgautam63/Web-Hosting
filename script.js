@@ -105,9 +105,8 @@ document.querySelectorAll('.photo-frame input[type="file"]').forEach((input) => 
     frame.classList.add('has-photo');
   });
 
-  function sonarTest() {
-    if (true) {
-        console.log("This condition is always true");
-    }
+ function test1() {
+    console.log("This is a very long line that is intentionally made unnecessarily long so that SonarQube can detect a maintainability issue in the source code");
+    console.log("This is a very long line that is intentionally made unnecessarily long so that SonarQube can detect a maintainability issue in the source code");
 }
 });
