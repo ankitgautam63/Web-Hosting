@@ -104,4 +104,9 @@ document.querySelectorAll('.photo-frame input[type="file"]').forEach((input) => 
     img.src = url;
     frame.classList.add('has-photo');
   });
+
+  function testSonar() {
+    var unusedVariable = 123;
+    console.log("Testing SonarQube");
+}
 });
