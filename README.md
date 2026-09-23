@@ -1,2 +1,1 @@
-# summer2026
-summer class poject
+This is a DevOps CI/CD prerequisites setup. The project uses AWS CloudFormation (Infrastructure as Code) to create an EC2 server, installs Docker on the server, and prepares the required GitHub Secrets, Docker Hub credentials, SSH key, and server IP variable so that an automated CI/CD pipeline can later build, analyze, and deploy the website. SonarQube Cloud is also used for code-quality and security analysis before deployment.
